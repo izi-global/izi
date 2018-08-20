@@ -56,7 +56,7 @@ Prints the current IZI, IZIGo and Go version alongside the platform information.
 }
 var outputFormat string
 
-const version = "1.10.0"
+const version = "1.0.0"
 
 func init() {
 	fs := flag.NewFlagSet("version", flag.ContinueOnError)
