@@ -47,7 +47,7 @@ import (
 	"{{.Appname}}/models"
 	"github.com/hprose/hprose-golang/rpc"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 func logInvokeHandler(
@@ -90,7 +90,7 @@ import (
 	"{{.Appname}}/models"
 	"github.com/hprose/hprose-golang/rpc"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 	"github.com/izi-global/izigo/orm"
 	{{.DriverPkg}}
 )

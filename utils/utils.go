@@ -71,7 +71,7 @@ func IsInGOPATH(thePath string) bool {
 // IsIZIGoProject checks whether the current path is a IZIGo application or not
 func IsIZIGoProject(thePath string) bool {
 	mainFiles := []string{}
-	hasIZIGoRegex := regexp.MustCompile(`(?s)package main.*?import.*?\(.*?github.com/astaxie/izigo".*?\).*func main()`)
+	hasIZIGoRegex := regexp.MustCompile(`(?s)package main.*?import.*?\(.*?github.com/izi-global/izigo".*?\).*func main()`)
 	c := make(chan error)
 	// Walk the application path tree to look for main files.
 	// Main files must satisfy the 'hasIZIGoRegex' regular expression.

@@ -71,7 +71,7 @@ var apiMaingo = `package main
 import (
 	_ "{{.Appname}}/routers"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 func main() {
@@ -88,7 +88,7 @@ var apiMainconngo = `package main
 import (
 	_ "{{.Appname}}/routers"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 	"github.com/izi-global/izigo/orm"
 	{{.DriverPkg}}
 )
@@ -119,7 +119,7 @@ package routers
 import (
 	"{{.Appname}}/controllers"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 func init() {
@@ -288,7 +288,7 @@ import (
 	"{{.Appname}}/models"
 	"encoding/json"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 // Operations about object
@@ -381,7 +381,7 @@ import (
 	"{{.Appname}}/models"
 	"encoding/json"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 // Operations about Users
@@ -506,7 +506,7 @@ import (
 	"path/filepath"
 	_ "{{.Appname}}/routers"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

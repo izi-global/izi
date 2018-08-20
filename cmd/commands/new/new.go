@@ -66,7 +66,7 @@ var maingo = `package main
 
 import (
 	_ "{{.Appname}}/routers"
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 func main() {
@@ -78,7 +78,7 @@ var router = `package routers
 
 import (
 	"{{.Appname}}/controllers"
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 func init() {
@@ -96,7 +96,7 @@ import (
 	"path/filepath"
 	_ "{{.Appname}}/routers"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 	. "github.com/smartystreets/goconvey/convey"
 )
 
@@ -130,7 +130,7 @@ func TestIZIGo(t *testing.T) {
 var controllers = `package controllers
 
 import (
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 type MainController struct {

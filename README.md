@@ -58,12 +58,11 @@ To display the current version of `izi`, `izigo` and `go` installed on your mach
 
 ```bash
 $ izi version
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+ __     ______     __    
+/\ \   /\___  \   /\ \   
+\ \ \  \/_/  /__  \ \ \  
+ \ \_\   /\_____\  \ \_\ 
+  \/_/   \/_____/   \/_/ v1.6.2
 
 ├── IZIGo     : 1.7.2
 ├── GoVersion : go1.7.4
@@ -101,12 +100,11 @@ To create a new IZIGo web application:
 
 ```bash
 $ izi new my-web-app
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+ __     ______     __    
+/\ \   /\___  \   /\ \   
+\ \ \  \/_/  /__  \ \ \  
+ \ \_\   /\_____\  \ \_\ 
+  \/_/   \/_____/   \/_/ v1.6.2
 2016/12/26 22:28:11 INFO     ▶ 0001 Creating application...
     create   /home/iziuser/.go/src/github.com/user/my-web-app/
     create   /home/iziuser/.go/src/github.com/user/my-web-app/conf/
@@ -152,12 +150,11 @@ To compress a IZIGo application into a single deployable file:
 
 ```bash
 $ izi pack
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+ __     ______     __    
+/\ \   /\___  \   /\ \   
+\ \ \  \/_/  /__  \ \ \  
+ \ \_\   /\_____\  \ \_\ 
+  \/_/   \/_____/   \/_/ v1.6.2
 2016/12/26 22:29:29 INFO     ▶ 0001 Packaging application on '/home/iziuser/.go/src/github.com/user/my-web-app'...
 2016/12/26 22:29:29 INFO     ▶ 0002 Building application...
 2016/12/26 22:29:29 INFO     ▶ 0003 Using: GOOS=linux GOARCH=amd64
@@ -208,12 +205,11 @@ To create a IZIGo API application:
 
 ```bash
 $ izi api my-api
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+ __     ______     __    
+/\ \   /\___  \   /\ \   
+\ \ \  \/_/  /__  \ \ \  
+ \ \_\   /\_____\  \ \_\ 
+  \/_/   \/_____/   \/_/ v1.6.2
 2016/12/26 22:30:12 INFO     ▶ 0001 Creating API...
     create   /home/iziuser/.go/src/github.com/user/my-api
     create   /home/iziuser/.go/src/github.com/user/my-api/conf
@@ -240,12 +236,11 @@ To create an Hprose RPC application based on IZIGo:
 
 ```bash
 $ izi hprose my-rpc-app
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+ __     ______     __    
+/\ \   /\___  \   /\ \   
+\ \ \  \/_/  /__  \ \ \  
+ \ \_\   /\_____\  \ \_\ 
+  \/_/   \/_____/   \/_/ v1.6.2
 2016/12/26 22:30:58 INFO     ▶ 0001 Creating application...
     create   /home/iziuser/.go/src/github.com/user/my-rpc-app/
     create   /home/iziuser/.go/src/github.com/user/my-rpc-app/conf/
@@ -275,12 +270,11 @@ To pack all the static files into Go source files:
 
 ```bash
 $ izi bale
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+ __     ______     __    
+/\ \   /\___  \   /\ \   
+\ \ \  \/_/  /__  \ \ \  
+ \ \_\   /\_____\  \ \_\ 
+  \/_/   \/_____/   \/_/ v1.6.2
 2016/12/26 22:32:41 INFO     ▶ 0001 Loading configuration from 'izi.json'...
 2016/12/26 22:32:41 SUCCESS  ▶ 0002 Baled resources successfully!
 ```
@@ -301,12 +295,11 @@ For example, to generate a new controller named `hello`:
 
 ```bash
 $ izi generate controller hello
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+ __     ______     __    
+/\ \   /\___  \   /\ \   
+\ \ \  \/_/  /__  \ \ \  
+ \ \_\   /\_____\  \ \_\ 
+  \/_/   \/_____/   \/_/ v1.6.2
 2016/12/26 22:33:58 INFO     ▶ 0001 Using 'Hello' as controller name
 2016/12/26 22:33:58 INFO     ▶ 0002 Using 'controllers' as package name
     create   /home/iziuser/.go/src/github.com/user/my-web-app/controllers/hello.go
@@ -323,12 +316,11 @@ For example, to generate a Dockerfile with `Go version 1.6.4` and exposing port 
 
 ```bash
 $ izi dockerize -image="library/golang:1.6.4" -expose=9000
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+ __     ______     __    
+/\ \   /\___  \   /\ \   
+\ \ \  \/_/  /__  \ \ \  
+ \ \_\   /\_____\  \ \_\ 
+  \/_/   \/_____/   \/_/ v1.6.2
 2016/12/26 22:34:54 INFO     ▶ 0001 Generating Dockerfile...
 2016/12/26 22:34:54 SUCCESS  ▶ 0002 Dockerfile generated.
 ```
@@ -340,12 +332,11 @@ For more information on the usage, run `izi help dockerize`.
 IZI can also help with debugging your application. To start a debugging session:
 
 ```bash
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.8.0
+ __     ______     __    
+/\ \   /\___  \   /\ \   
+\ \ \  \/_/  /__  \ \ \  
+ \ \_\   /\_____\  \ \_\ 
+  \/_/   \/_____/   \/_/ v1.8.0
 2017/03/22 11:17:05 INFO     ▶ 0001 Starting Delve Debugger...
 Type 'help' for list of commands.
 (dlv) break main.main
@@ -355,7 +346,7 @@ Breakpoint 1 set at 0x40100f for main.main() ./main.go:8
 > main.main() ./main.go:8 (hits goroutine(1):1 total:1) (PC: 0x40100f)
      3:	import (
      4:		_ "github.com/user/myapp/routers"
-     5:		"github.com/astaxie/izigo"
+     5:		"github.com/izi-global/izigo"
      6:	)
      7:	
 =>   8:	func main() {

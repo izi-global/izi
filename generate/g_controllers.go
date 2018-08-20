@@ -78,7 +78,7 @@ func GenerateController(cname, currpath string) {
 var controllerTpl = `package {{packageName}}
 
 import (
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 // {{controllerName}}Controller operations for {{controllerName}}
@@ -166,7 +166,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 //  {{controllerName}}Controller operations for {{controllerName}}

@@ -21,12 +21,11 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
-const verboseVersionBanner string = `%s%s______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v{{ .IZIVersion }}%s
+const verboseVersionBanner string = `%s%s__     ______     __    
+/\ \   /\___  \   /\ \   
+\ \ \  \/_/  /__  \ \ \  
+ \ \_\   /\_____\  \ \_\ 
+  \/_/   \/_____/   \/_/ v{{ .IZIVersion }}%s
 %s%s
 ├── IZIGo     : {{ .IZIGoVersion }}
 ├── GoVersion : {{ .GoVersion }}
@@ -39,12 +38,11 @@ const verboseVersionBanner string = `%s%s______
 └── Date      : {{ Now "Monday, 2 Jan 2006" }}%s
 `
 
-const shortVersionBanner = `______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v{{ .IZIVersion }}
+const shortVersionBanner = `__     ______     __    
+/\ \   /\___  \   /\ \   
+\ \ \  \/_/  /__  \ \ \  
+ \ \_\   /\_____\  \ \_\ 
+  \/_/   \/_____/   \/_/ v{{ .IZIVersion }}
 `
 
 var CmdVersion = &commands.Command{
@@ -159,7 +157,7 @@ func GetIZIGoVersion() string {
 		}
 
 	}
-	return "IZIGo is not installed. Please do consider installing it first: https://github.com/astaxie/izigo"
+	return "IZIGo is not installed. Please do consider installing it first: https://github.com/izi-global/izigo"
 }
 
 func GetGoVersion() string {

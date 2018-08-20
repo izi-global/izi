@@ -415,7 +415,7 @@ func analyseControllerPkg(vendorPath, localName, pkgpath string) {
 	if isSystemPackage(pkgpath) {
 		return
 	}
-	if pkgpath == "github.com/astaxie/izigo" {
+	if pkgpath == "github.com/izi-global/izigo" {
 		return
 	}
 	if localName != "" {

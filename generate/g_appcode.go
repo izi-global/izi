@@ -1141,7 +1141,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 // {{ctrlName}}Controller operations for {{ctrlName}}
@@ -1316,7 +1316,7 @@ package routers
 import (
 	"{{pkgPath}}/controllers"
 
-	"github.com/astaxie/izigo"
+	"github.com/izi-global/izigo"
 )
 
 func init() {
