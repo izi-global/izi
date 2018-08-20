@@ -1,0 +1,3 @@
+github.com/izi-global/izi/cmd/commands/run/*.go:S1024
+github.com/izi-global/izi/cmd/commands/dlv/*.go:S1024
+github.com/izi-global/izi/utils/*.go:S1026
