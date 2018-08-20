@@ -110,8 +110,8 @@ func main() {
 var apirouter = `// @APIVersion 1.0.0
 // @Title izigo Test API
 // @Description izigo has a very cool tools to autogenerate documents for your API
-// @Contact astaxie@gmail.com
-// @TermsOfServiceUrl http://izigo.me/
+// @Contact dotiendiep@gmail.com
+// @TermsOfServiceUrl http://go.izi.asia/
 // @License Apache 2.0
 // @LicenseUrl http://www.apache.org/licenses/LICENSE-2.0.html
 package routers
@@ -208,7 +208,7 @@ var (
 
 func init() {
 	UserList = make(map[string]*User)
-	u := User{"user_11111", "astaxie", "11111", Profile{"male", 20, "Singapore", "astaxie@gmail.com"}}
+	u := User{"user_11111", "astaxie", "11111", Profile{"male", 20, "Singapore", "dotiendiep@gmail.com"}}
 	UserList["user_11111"] = &u
 }
 

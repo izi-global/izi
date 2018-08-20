@@ -106,7 +106,7 @@ func getStruct(structname, fields string) (string, bool, error) {
 }
 
 // fields support type
-// http://izigo.me/docs/mvc/model/models.md#mysql
+// http://go.izi.asia/docs/mvc/model/models.md#mysql
 func getType(ktype string) (kt, tag string, hasTime bool) {
 	kv := strings.SplitN(ktype, ":", 2)
 	switch kv[0] {

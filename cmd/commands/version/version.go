@@ -38,7 +38,8 @@ const verboseVersionBanner string = `%s%s__     ______     __
 └── Date      : {{ Now "Monday, 2 Jan 2006" }}%s
 `
 
-const shortVersionBanner = `__     ______     __    
+const shortVersionBanner = `
+ __     ______     __    
 /\ \   /\___  \   /\ \   
 \ \ \  \/_/  /__  \ \ \  
  \ \_\   /\_____\  \ \_\ 
@@ -126,7 +127,7 @@ func GetIZIGoVersion() string {
 		return ""
 	}
 	for _, wg := range wgopath {
-		wg, _ = path.EvalSymlinks(path.Join(wg, "src", "github.com", "astaxie", "izigo"))
+		wg, _ = path.EvalSymlinks(path.Join(wg, "src", "github.com", "izi-global", "izigo"))
 		filename := path.Join(wg, "izigo.go")
 		_, err := os.Stat(filename)
 		if err != nil {

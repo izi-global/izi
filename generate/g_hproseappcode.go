@@ -24,10 +24,10 @@ import (
 	"path"
 	"strings"
 
+	_ "github.com/go-sql-driver/mysql"
 	iziLogger "github.com/izi-global/izi/logger"
 	"github.com/izi-global/izi/logger/colors"
 	"github.com/izi-global/izi/utils"
-	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 )
 
@@ -198,7 +198,7 @@ var (
 
 func init() {
 	UserList = make(map[string]*User)
-	u := User{"user_11111", "astaxie", "11111", Profile{"male", 20, "Singapore", "astaxie@gmail.com"}}
+	u := User{"user_11111", "astaxie", "11111", Profile{"male", 20, "Singapore", "dotiendiep@gmail.com"}}
 	UserList["user_11111"] = &u
 }
 

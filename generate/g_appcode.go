@@ -23,10 +23,10 @@ import (
 	"regexp"
 	"strings"
 
+	_ "github.com/go-sql-driver/mysql"
 	iziLogger "github.com/izi-global/izi/logger"
 	"github.com/izi-global/izi/logger/colors"
 	"github.com/izi-global/izi/utils"
-	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 )
 
@@ -1307,8 +1307,8 @@ func (c *{{ctrlName}}Controller) Delete() {
 	RouterTPL = `// @APIVersion 1.0.0
 // @Title izigo Test API
 // @Description izigo has a very cool tools to autogenerate documents for your API
-// @Contact astaxie@gmail.com
-// @TermsOfServiceUrl http://izigo.me/
+// @Contact dotiendiep@gmail.com
+// @TermsOfServiceUrl http://go.izi.asia/
 // @License Apache 2.0
 // @LicenseUrl http://www.apache.org/licenses/LICENSE-2.0.html
 package routers
