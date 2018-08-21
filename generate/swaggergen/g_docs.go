@@ -1,4 +1,4 @@
-// Copyright 2013 izi authors
+// Copyright 2018 IZI Global
 //
 // Licensed under the Apache License, Version 2.0 (the "License"): you may
 // not use this file except in compliance with the License. You may obtain
@@ -34,10 +34,10 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/izi-global/izigo/swagger"
-	"github.com/izi-global/izigo/utils"
 	iziLogger "github.com/izi-global/izi/logger"
 	bu "github.com/izi-global/izi/utils"
+	"github.com/izi-global/izigo/swagger"
+	"github.com/izi-global/izigo/utils"
 )
 
 const (

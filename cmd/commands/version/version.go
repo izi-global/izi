@@ -21,7 +21,7 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
-const verboseVersionBanner string = `%s%s__     ______     __    
+const verboseVersionBanner string = `%s%s __     ______     __    
 /\ \   /\___  \   /\ \   
 \ \ \  \/_/  /__  \ \ \  
  \ \_\   /\_____\  \ \_\ 
@@ -38,8 +38,7 @@ const verboseVersionBanner string = `%s%s__     ______     __
 └── Date      : {{ Now "Monday, 2 Jan 2006" }}%s
 `
 
-const shortVersionBanner = `
- __     ______     __    
+const shortVersionBanner = ` __     ______     __    
 /\ \   /\___  \   /\ \   
 \ \ \  \/_/  /__  \ \ \  
  \ \_\   /\_____\  \ \_\ 
@@ -56,6 +55,7 @@ Prints the current IZI, IZIGo and Go version alongside the platform information.
 }
 var outputFormat string
 
+// Phiên bản hiện tại
 const version = "1.0.0"
 
 func init() {

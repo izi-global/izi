@@ -1,4 +1,4 @@
-// Copyright 2013 izi authors
+// Copyright 2018 IZI Global
 //
 // Licensed under the Apache License, Version 2.0 (the "License"): you may
 // not use this file except in compliance with the License. You may obtain
@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/fsnotify/fsnotify"
 	"github.com/izi-global/izi/config"
 	iziLogger "github.com/izi-global/izi/logger"
 	"github.com/izi-global/izi/logger/colors"
 	"github.com/izi-global/izi/utils"
-	"github.com/fsnotify/fsnotify"
 )
 
 var (
@@ -148,7 +148,7 @@ func AutoBuild(files []string, isgenerate bool) {
 	}
 	appName := appname
 	if err == nil {
-		
+
 		if runtime.GOOS == "windows" {
 			appName += ".exe"
 		}

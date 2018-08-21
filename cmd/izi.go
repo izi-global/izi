@@ -1,4 +1,4 @@
-// Copyright 2013 izi authors
+// Copyright 2018 IZI Global
 //
 // Licensed under the Apache License, Version 2.0 (the "License"): you may
 // not use this file except in compliance with the License. You may obtain
@@ -19,11 +19,11 @@ import (
 	"github.com/izi-global/izi/cmd/commands"
 	_ "github.com/izi-global/izi/cmd/commands/api"
 	_ "github.com/izi-global/izi/cmd/commands/bale"
-	_ "github.com/izi-global/izi/cmd/commands/izifix"
 	_ "github.com/izi-global/izi/cmd/commands/dlv"
 	_ "github.com/izi-global/izi/cmd/commands/dockerize"
 	_ "github.com/izi-global/izi/cmd/commands/generate"
 	_ "github.com/izi-global/izi/cmd/commands/hprose"
+	_ "github.com/izi-global/izi/cmd/commands/izifix"
 	_ "github.com/izi-global/izi/cmd/commands/migrate"
 	_ "github.com/izi-global/izi/cmd/commands/new"
 	_ "github.com/izi-global/izi/cmd/commands/pack"

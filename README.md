@@ -511,7 +511,7 @@ Rebasing will update your branch with the most recent code and make your changes
 ## Licence
 
 ```text
-Copyright 2016 izi authors
+Copyright 2018 IZI Global
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

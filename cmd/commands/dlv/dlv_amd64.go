@@ -1,4 +1,4 @@
-// Copyright 2017 izi authors
+// Copyright 2018 IZI Global
 //
 // Licensed under the Apache License, Version 2.0 (the "License"): you may
 // not use this file except in compliance with the License. You may obtain
@@ -24,15 +24,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/izi-global/izi/cmd/commands"
-	"github.com/izi-global/izi/cmd/commands/version"
-	iziLogger "github.com/izi-global/izi/logger"
-	"github.com/izi-global/izi/utils"
 	"github.com/derekparker/delve/service"
 	"github.com/derekparker/delve/service/rpc2"
 	"github.com/derekparker/delve/service/rpccommon"
 	"github.com/derekparker/delve/terminal"
 	"github.com/fsnotify/fsnotify"
+	"github.com/izi-global/izi/cmd/commands"
+	"github.com/izi-global/izi/cmd/commands/version"
+	iziLogger "github.com/izi-global/izi/logger"
+	"github.com/izi-global/izi/utils"
 )
 
 var cmdDlv = &commands.Command{
